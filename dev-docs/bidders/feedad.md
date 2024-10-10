@@ -18,3 +18,4 @@ sidebarType: 1
 | `clientToken` | required | Your FeedAd client token. Check your FeedAd admin panel. | `'EiRjZDFiYzI2ZC03OTA2LTQyOTEtOGFmMC0xYzMyZmMwNTFkMDU='` | `string` |
 | `placementId` | required | A FeedAd placement ID of your choice                     | `'prebid-test'`                                          | `string` |
 | `decoration` | optional | A decoration to apply to the ad slot. See our [documentation](https://docs.feedad.com/web/feed_ad/#decorations) | `'sticky bottom height=200px'` | `string` |
+| `sdkOptions` | optional | Only required, if your Prebid.JS integration runs within a web view of a native app (aka. hybrid app). Holds an object of configuration values [explained here](https://docs.feedad.com/web/configuration/#hybrid-app-config-parameters). | `{hybrid_app: true, hybrid_platform: 'android', bundle_id: 'your.app.bundle', app_name: 'My App', limit_ad_tracking: false, advertising_id: "device ad id"}` | `object` |
